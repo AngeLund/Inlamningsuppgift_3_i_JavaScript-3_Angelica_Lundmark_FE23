@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  margin: 0;
+  color: white;
+}
+
+.productImg {
+  width: 75px;
+  margin-top: 30px;
+}
+
+.left {
+  background-color: #6d763f;
+  border-left: 7px;
+}
+.leftCart {
+  background-color: #3f7670;
+  border-left: 7px;
+}
+.listWrapper {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 1rem;
+  border: #282c34;
+  color: black;
+  border-radius: 7px;
+  margin-bottom: 4px;
+}
+
+.right {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.popUpDiv {
+  background-color: white;
+  width: 20%;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  border-radius: 7px;
+  border: solid #6d763f 2px;
+}
+
+.information {
+  padding: 30px;
+}
+
+.AddButton {
+  background-color: #f9fbef;
+  border: solid #6d763f 2px;
+  border-radius: 7px;
+  color: #6d763f;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+.deleteButton {
+  background-color: #fbefef;
+  border: solid #763f3f 2px;
+  border-radius: 7px;
+  color: #763f3f;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+.closeButton {
+  background-color: #f9fbef;
+  border: solid #6d763f 2px;
+  border-radius: 7px;
+  color: #6d763f;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+.infoButton {
+  color: white;
+  border: none;
+  color: blue;
+}
+
+.infoButton:hover {
+  color: rgb(4, 4, 112);
+}
+.AddButton:hover {
+  background-color: #6d763f;
+  color: white;
+}
+
+.deleteButton:hover {
+  background-color: #763f3f;
+  color: white;
+}
+
+.closeButton:hover {
+  background-color: #6d763f;
+  color: white;
+}
+
+h3 {
+  margin-top: 10px;
+  color: #6d763f;
+}
+.Main {
+  display: flex;
+  justify-content: center;
+  background-color: #282c34;
+  gap: 100px;
+}
+
+.List {
+  width: 20%;
+}
+
+h4 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

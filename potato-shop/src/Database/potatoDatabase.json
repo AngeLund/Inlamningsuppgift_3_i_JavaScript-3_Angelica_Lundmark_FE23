@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Mandelpotatis",
+    "productNumber": 1,
+    "price": 4,
+    "info": "Smal och liten potatis med rundad smak av kärnad mandel som kan ätas rå",
+    "img": "https://tgtg-mkt-cms-prod.s3.eu-west-1.amazonaws.com/40936/VKf09bTqDeaLnI88",
+    "count": 1
+  },
+
+  {
+    "name": "King Edward",
+    "productNumber": 2,
+    "price": 2,
+    "info": "Medel stor potatis som passa bra till fiskrätter och är grynigare än andra potatisorter",
+    "img": "https://tgtg-mkt-cms-prod.s3.eu-west-1.amazonaws.com/40936/VKf09bTqDeaLnI88",
+    "count": 1
+  },
+
+  {
+    "name": "Rosamunda",
+    "productNumber": 3,
+    "price": 5,
+    "info": "Medel stor potatis som har en smak av rosor och björkar passar fint till vilt och odlas kring hösten",
+    "img": "https://tgtg-mkt-cms-prod.s3.eu-west-1.amazonaws.com/40936/VKf09bTqDeaLnI88",
+    "count": 1
+  },
+
+  {
+    "name": "Melody",
+    "productNumber": 4,
+    "price": 4,
+    "info": "Smal och liten potatis som spelar en fin melody när man kokar den och passar till allting",
+    "img": "https://tgtg-mkt-cms-prod.s3.eu-west-1.amazonaws.com/40936/VKf09bTqDeaLnI88",
+    "count": 1
+  },
+
+  {
+    "name": "Blå Kongo",
+    "productNumber": 5,
+    "price": 6,
+    "info": "Stor potatis med blå insida skalen kan användas till att färga kläder",
+    "img": "https://tgtg-mkt-cms-prod.s3.eu-west-1.amazonaws.com/40936/VKf09bTqDeaLnI88",
+    "count": 1
+  },
+
+  {
+    "name": "Red Baron",
+    "productNumber": 6,
+    "price": 9,
+    "info": "Medel potatis som är röd och smakar som rödbeta oldas hela året och kan vara en bra rätt till sallad",
+    "img": "https://tgtg-mkt-cms-prod.s3.eu-west-1.amazonaws.com/40936/VKf09bTqDeaLnI88",
+    "count": 1
+  },
+
+  {
+    "name": "Evergood",
+    "productNumber": 7,
+    "price": 2,
+    "info": "Smal och liten potatis som smakar löv och behöver massor med soljus för att växa",
+    "img": "https://tgtg-mkt-cms-prod.s3.eu-west-1.amazonaws.com/40936/VKf09bTqDeaLnI88",
+    "count": 1
+  },
+
+  {
+    "name": "Linzer",
+    "productNumber": 8,
+    "price": 5,
+    "info": "Stor potatis med mycket smak och passar bäst till rätter med linser i odlas tidig vår",
+    "img": "https://tgtg-mkt-cms-prod.s3.eu-west-1.amazonaws.com/40936/VKf09bTqDeaLnI88",
+    "count": 1
+  },
+
+  {
+    "name": "Euromia",
+    "productNumber": 9,
+    "price": 7,
+    "info": "liten potatis importerad från rom och är knölig men väldigt grynig och rik på smak passar bäst till vitt vin",
+    "img": "https://tgtg-mkt-cms-prod.s3.eu-west-1.amazonaws.com/40936/VKf09bTqDeaLnI88",
+    "count": 1
+  },
+
+  {
+    "name": "Olav",
+    "productNumber": 10,
+    "price": 3,
+    "info": "Medel potatis med mycket sötma och rika undetoner av mandel och odlas under vintern",
+    "img": "https://tgtg-mkt-cms-prod.s3.eu-west-1.amazonaws.com/40936/VKf09bTqDeaLnI88",
+    "count": 1
+  }
+]
