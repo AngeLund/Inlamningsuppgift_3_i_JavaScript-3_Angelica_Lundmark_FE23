@@ -1,8 +1,10 @@
-function Cart({ cartList, clickAction }) { // Carten där man generarer listan ser listen till kundvagnen här finns också en delete knappen. 
-  let totalCost = 0;
+// Cartlist är producter som är inlagd där, clickAction är en delete button funktion
+function Cart({ cartList, clickAction }) { 
+  let totalCost = 0; //totalCostnaden är priset samtliga gånger antal.
   cartList.forEach(
     (cartItem) => (totalCost += cartItem.price * cartItem.count)
   );
+  // Skriver ut productlistan med producter
   return (
     <div className={"List"}>
       <h4>Your cart</h4>
@@ -26,7 +28,7 @@ function Cart({ cartList, clickAction }) { // Carten där man generarer listan s
           </div>
         );
       })}
-      <p>Total: {totalCost} SEK</p>
+      <p>Total: {totalCost} SEK</p> 
     </div>
   );
 }

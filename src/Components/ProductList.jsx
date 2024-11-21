@@ -1,4 +1,5 @@
-function ProductList({ potatoDatabase, clickAction, clickActionInfo }) { // Här generar vi hela produkt listan från databasen och har också en add knappt och en information knappt.
+//PotatoDabas är en json, ClickAction är en add button och clickActionInfo är öppna popUp med den producten
+function ProductList({ potatoDatabase, clickAction, clickActionInfo }) { 
   return (
     <div className={"List"}>
       {potatoDatabase.map((product) => {

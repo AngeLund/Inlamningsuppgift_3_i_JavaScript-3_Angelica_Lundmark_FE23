@@ -12,16 +12,16 @@ function App() {  //Usestates
   const [popUp, SetPopUp] = useState(false);
   const [currentProduct, SetCurrentProduct] = useState({});
 
-  const updateProductList = (searchQuery) => { // Vi uppdaterar productlistan 
+  const updateProductList = (searchQuery) => { // Vi uppdaterar productlistan baserat på sök
     return potatoDatabase.filter((product) => {
-      if (searchQuery === "") {
+      if (searchQuery === "") { // om den är tom ta med alla
         return true;
-      } else if (
+      } else if ( //annars kolla om sök strängen finns i productens namn
         product.name.toLocaleLowerCase().includes(searchQuery.toLowerCase())
       ) {
         return true;
       }
-      return false;
+      return false; // annars tar man inte med de
     });
   };
   const handleSubmit = (e) => {  // Submit funktion till searchbaren 
@@ -34,14 +34,14 @@ function App() {  //Usestates
     );
     if (prodInCart) {
       const newCartList = cartList.map((cartItem) => {
-        if (cartItem.name === product.name) {
-          return { ...cartItem, count: cartItem.count + 1 };
+        if (cartItem.name === product.name) { //om det är producten man klicka på.
+          return { ...cartItem, count: cartItem.count + 1 }; // lägger på plus ett på count.
         }
         return cartItem;
       });
       SetCartList(newCartList);
     } else {
-      SetCartList([...cartList, product]);
+      SetCartList([...cartList, product]); // lägger till producten eftersom det inte fans med i listan
     }
   };
   const handlePopUp = (popUpState, product) => { //Hanterar PopUp 
@@ -56,14 +56,14 @@ function App() {  //Usestates
     if (prodInCart && prodInCart.count > 1) {
       const newCartList = cartList.map((cartItem) => {
         if (cartItem.name === product.name) {
-          return { ...cartItem, count: cartItem.count - 1 };
+          return { ...cartItem, count: cartItem.count - 1 }; //ungefär samma sam fast med minus ett count. 
         }
         return cartItem;
       });
       SetCartList(newCartList);
     } else {
       SetCartList(
-        cartList.filter((cartItem) => cartItem.name !== product.name)
+        cartList.filter((cartItem) => cartItem.name !== product.name) 
       );
     }
   };

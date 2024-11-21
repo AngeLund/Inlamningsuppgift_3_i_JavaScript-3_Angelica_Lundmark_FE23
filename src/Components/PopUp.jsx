@@ -1,4 +1,6 @@
-function PopUp({ popUp, clickActionClose, currentProduct }) { // Vissar information med en Popup ruta när man klickar på mer information och en knapp close.
+// popUp state är om den vissas eller inte. ClickActionsClose är close button
+// currentProduct som kommer från vissa mer info.
+function PopUp({ popUp, clickActionClose, currentProduct }) { 
   if (popUp) {
     return (
       <div className="popUpDiv">
